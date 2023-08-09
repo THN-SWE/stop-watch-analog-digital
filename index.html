@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div id="clockContainer">
+      <div id="digital">
+        <p>
+          <span id="minutes">00</span>:<span id="seconds">00</span>:<span
+            id="milliseconds"
+            >00</span
+          >
+        </p>
+      </div>
+      <div id="minute"></div>
+      <div id="second"></div>
+
+      <button onclick="start()" id="start_button">Start</button>
+      <button onclick="stop_reset()" id="stop_button">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <center>
+      Made with <span style="color: #e25555">❤</span> by Thulasikan
+    </center>
+  </footer>
+</html>
